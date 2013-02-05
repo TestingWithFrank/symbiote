@@ -9,6 +9,7 @@
       case 1024:
         return 'ipad';
       case 480:
+      case 568:
         return 'iphone';
       default:
         console.warn("couldn't recognize device family based on screen height of " + viewHeir.accessibilityFrame.size.height + "px");
